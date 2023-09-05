@@ -1,0 +1,65 @@
+<!-- <p>paragraph of text</p>
+<button>Hello</button>
+<a href="https://www.apnacollege.in/start"
+ target="_blank">Link</a> -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Example</title>
+    <style>
+        /* Pagination styles */
+        .pagination {
+            display: flex; 
+            justify-content: center;
+            list-style: none;
+            margin: 20px 0;
+            padding: 0;
+        }
+
+        .pagination li {
+            margin: 0 50px;
+        }
+
+        .pagination a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Content styles */
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <!-- Your paginated content goes here -->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <!-- Add more items as needed -->
+        </ul>
+    </div>
+
+    <!-- Pagination -->
+    <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <!-- Add more page links as needed -->
+    </ul>
+</body>
+</html>
